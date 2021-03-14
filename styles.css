@@ -1,0 +1,79 @@
+body{
+    overflow-x: hidden;
+}
+
+
+/*NAV BAR ELEMENTS*/
+.navbar{
+background-color: white;
+}
+.logo{
+    width: 50px;
+    height: 44px;
+}
+
+.user-desktop{
+    width: 50px;
+    height: 44px;
+    position: relative;
+    display: inline-block;
+}
+.user-mobile{
+    width: 50px;
+    height: 44px;
+    position: relative;
+    display: inline-block;
+}
+.navbtn{
+    background-color: green;
+    color: white;
+    font-weight: 700;
+}
+
+.navbar-toggler-icon{
+    background-image: url("down-arrow.svg");
+}
+.navbar-nav{
+    position: absolute;
+}
+
+/*TOP*/
+.top-div{
+    padding:0px;
+}
+
+.first-big-img{
+    width: 100%;
+    padding-left: 0px;
+    
+}
+#servicos-txt {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 557px;
+	white-space: nowrap;
+	line-height: 65.39273071289062px;
+	margin-top: -5.449396133422852px;
+	text-align: right;
+	font-family: Ubuntu-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 54.49393844604492px;
+	color: rgba(255,255,255,1);
+    
+    
+}
+
+@media only screen and (max-width:900px){
+.user-desktop{
+    display: none;
+}
+}
+@media only screen and (min-width:900px){
+    .user-mobile{
+        display: none;
+    }
+    }
+    
